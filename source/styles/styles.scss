@@ -1,20 +1,26 @@
 /* GLOBAL */
 @import "./common/variables.scss";
-@import "./common/global.scss";
+@import "./common/mixins.scss";
 @import "./common/fonts.scss";
+@import "./common/global.scss";
+@import "./common/visually-hidden.scss";
 
 /* BLOCKS */
+@import "./blocks/button.scss";
 @import "./blocks/header.scss";
-@import "./blocks/page.scss";
-@import "./blocks/logo.scss";
 @import "./blocks/navigation.scss";
+@import "./blocks/footer.scss";
+@import "./blocks/logo.scss";
+@import "./blocks/title-h1.scss";
+@import "./blocks/title-h2.scss";
+@import "./blocks/title-h3.scss";
 @import "./blocks/main-container.scss";
+@import "./blocks/page.scss";
 @import "./blocks/hero.scss";
 @import "./blocks/programs.scss";
 @import "./blocks/specials.scss";
 @import "./blocks/example.scss";
 @import "./blocks/contacts.scss";
-@import "./blocks/footer.scss";
 @import "./blocks/socials.scss";
 @import "./blocks/developer.scss";
 @import "./blocks/container.scss";
