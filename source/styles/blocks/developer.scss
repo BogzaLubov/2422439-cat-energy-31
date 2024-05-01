@@ -16,7 +16,7 @@
 .developer__text::after {
   content: "";
   position: absolute;
-  mask-image: url('../../icons/stack.svg#developer-logo');
+  mask-image: url("../../icons/stack.svg#developer-logo");
   mask-repeat: no-repeat;
   background-color: $icon-color;
   mask-position: center;
@@ -24,11 +24,11 @@
   min-height: 22px;
 }
 
-.developer__text:hover:after {
+.developer__text:hover::after {
   background-color: $bg-primary;
 }
 
-.developer__text:active:after {
+.developer__text:active::after {
   background-color: $bg-primary;
   opacity: 0.3;
 }
