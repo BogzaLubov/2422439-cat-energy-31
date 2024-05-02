@@ -3,6 +3,7 @@
 
 .developer {
   position: relative;
+  text-decoration: none;
 }
 
 .developer__text {
@@ -10,7 +11,6 @@
   font-size: 16px;
   line-height: 20px;
   color: variables.$font-color-primary;
-  text-decoration: none;
 }
 
 .developer__text::after {
@@ -28,7 +28,10 @@
   background-color: $bg-primary;
 }
 
+.developer__text:active {
+  color: rgba($font-color-primary, 0.3);
+}
+
 .developer__text:active::after {
-  background-color: $bg-primary;
-  opacity: 0.3;
+  background-color: rgba($bg-primary, 0.3);
 }
